@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Head-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Giuseppe Kakra</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/portfolio.css">
+    </head>
+
+    <!--body-->
+    <body class="background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--BReaks inserted to add space between navbar and first heading-->
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <video autoplay muted loop id="code_video">
+                <source src="images/video/background-code.mp4" type="video/mp4">
+                <!--display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="video_text">
+            <h1 class="white-text">Giuseppe Kakra Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Giuseppe Kakra. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>      
+            </strong>
+        </div>
+        
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--left column-->
+            <div class="Column_1">
+                <img src="images/about_image.jpg" width="100%" alt="">
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <h1>A litle about me</h1>
+                <p>
+                    As a developer, I had no prior knowledge of coding, so whenever I viewed code, it seemed like it belonged on a different planet.
+                    <br>Then, one day, I made the decision to pursue web development because I wanted to alter my professional route.
+                    <br>I have to admit that I had no regrets about my decision since, as it turned out, learning to code wasn't all that terrifying. In fact, I rather enjoyed it.
+                    <br>I am a graduate of <a href="https://www.pitman-training.com/" target="_blank">Pitman Training</a>'s Web Developer Boot Camp, and trained in the following web and programming languages: HTML, CSS, Javascript, Python and more.
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        
+        <div class="Row" id="GitHub">
+            <!--left column-->
+            <div class="Column_2">
+                <h1>GitHub</h1>
+                <p>You can view my coding projects on my GItHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Giuseppe93k" target="_blank">Giuseppe Kakra GitHub</a></p>
+                </p>
+            </div>
+            <!--right column-->
+            <div class="Column_1">
+                <a href="https://github.com/Giuseppe93k" target="_blank"><img src="./images/github.jpg" alt=""></a>
+            </div>
+        </div>
+        
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--contact image, left column-->
+            <div class="Column_1 column_tall">
+                <img src="images/contact_image.jpg" width="100%" alt="">
+            </div>
+            <!--Contact Form, right column-->
+            <div class="Column_2 column_tall">
+                <h1>Contact</h1>
+                <!---->
+                <form action="https://formspree.io/f/mbjnwyro" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your Full Name here">
+                    <label>Email:</label>
+                        <input type="text" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--footer-->
+        <footer>
+            <p>
+                <p class="center">&copy<a href="https://github.com/Giuseppe93k" target="_blank">GIUSEPPE KAKRA</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
